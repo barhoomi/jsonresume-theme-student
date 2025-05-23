@@ -17,8 +17,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "resume serve --theme .",
-    "export": "resume export --theme . resume.pdf"
+    "init": "resumed init",
+    "start": "resumed --theme jsonresume-theme-local"
   },
   "dependencies": {
     "address-format": "0.0.3",
@@ -28,6 +28,7 @@
     "swag": "^0.7.0"
   },
   "devDependencies": {
-    "resume-cli": "^3.1.2"
+    "jsonresume-theme-local": "file:./",
+    "resumed": "^5.0.0"
   }
 }
