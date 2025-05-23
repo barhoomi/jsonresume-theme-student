@@ -1,134 +1,164 @@
 {
   "basics": {
-    "name": "Richard Hendriks",
-    "label": "Programmer",
-    "picture": "http://www.piedpiper.com/app/themes/pied-piper/dist/images/richard.png",
-    "email": "richard.hendriks@piedpiper.com",
-    "phone": "(912) 555-4321",
-    "website": "http://piedpiper.com",
-    "summary": "Richard hails from <strong>Tulsa</strong>. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for <a href='http://www.hooli.xyz/'>Hooli</a> as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a <em>“length-limited”</em> conversation!",
+    "name": "Jane Doe",
+    "label": "Computer Science Student",
+    "picture": "https://example.com/jane-doe.jpg",
+    "email": "jane.doe@university.edu",
+    "phone": "(555) 123-4567",
+    "website": "https://janedoe.dev",
+    "summary": "Passionate Computer Science undergraduate at State University. Active in open-source, hackathons, and research on machine learning. Seeking internship opportunities to apply skills in full-stack development and data science.",
     "location": {
-      "address": "Newell Road",
-      "postalCode": "94303",
-      "city": "Palo Alto",
+      "address": "123 University Ave",
+      "postalCode": "12345",
+      "city": "College Town",
       "countryCode": "US",
       "region": "CA"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "siliconHBO",
-        "url": "https://twitter.com/siliconHBO"
+        "network": "GitHub",
+        "username": "janedoe",
+        "url": "https://github.com/janedoe"
       },
       {
-        "network": "Facebook",
-        "username": "SiliconHBO",
-        "url": "https://www.facebook.com/SiliconHBO"
-      },
-      {
-        "network": "Instagram",
-        "username": "siliconhbo",
-        "url": "https://www.instagram.com/siliconhbo/"
+        "network": "LinkedIn",
+        "username": "jane-doe",
+        "url": "https://www.linkedin.com/in/jane-doe"
       }
     ]
   },
+  "education": [
+    {
+      "institution": "State University",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2021-08-01",
+      "endDate": "2025-05-01",
+      "gpa": "3.85",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Operating Systems",
+        "Machine Learning",
+        "Databases"
+      ]
+    },
+    {
+      "institution": "Central High School",
+      "area": "Science & Math",
+      "studyType": "High School Diploma",
+      "startDate": "2017-09-01",
+      "endDate": "2021-06-01",
+      "gpa": "4.00",
+      "courses": [
+        "AP Computer Science A",
+        "AP Calculus AB"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Campus Connect",
+      "description": "A React Native mobile app to help students find campus events and form study groups.",
+      "highlights": [
+        "Implemented real-time chat with Socket.io",
+        "Integrated Google Calendar API for event scheduling",
+        "Deployed to Expo and published on TestFlight"
+      ],
+      "keywords": [
+        "React Native",
+        "Node.js",
+        "Firebase"
+      ],
+      "startDate": "2023-02-01",
+      "endDate": "2023-05-01",
+      "url": "https://github.com/janedoe/campus-connect"
+    },
+    {
+      "name": "Data Structures Visualizer",
+      "description": "Web application to visualize how common data structures operate.",
+      "highlights": [
+        "Animated insert, delete, and search operations in JavaScript",
+        "Designed UI with D3.js",
+        "Deployed on GitHub Pages"
+      ],
+      "keywords": [
+        "D3.js",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "startDate": "2022-11-01",
+      "endDate": "2023-01-15",
+      "url": "https://janedoe.github.io/ds-visualizer"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Machine Learning",
+      "issuer": "Stanford University (Coursera)",
+      "date": "2022-08-01",
+      "url": "https://coursera.org/verify/ML-JaneDoe"
+    },
+    {
+      "name": "Front-End Web Developer",
+      "issuer": "freeCodeCamp",
+      "date": "2023-03-01",
+      "url": "https://www.freecodecamp.org/certification/janedoe/front-end"
+    }
+  ],
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2014-04-13",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "TechStart Labs",
+      "position": "Software Engineering Intern",
+      "website": "https://techstartlabs.com",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-31",
+      "summary": "Worked on the backend team to build RESTful APIs for a B2B analytics dashboard.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won <a href='https://techcrunch.com/event-type/disrupt/'>Techcrunch Disrupt</a>",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    },
-    {
-      "company": "Hooli",
-      "position": "Senior Software Engineer",
-      "website": "http://www.hooli.xyz/",
-      "startDate": "2014-01-01",
-      "endDate": "2014-04-06",
-      "highlights": [
-        "Worked on optimizing the backend algorithms for <a href='http://www.hooli.xyz/'>Hooli</a>"
-      ]
-    },
-    {
-      "company": "Hooli",
-      "position": "Software Engineer",
-      "website": "http://www.hooli.xyz/",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "highlights": [
-        "Contributed bugfixes and smaller features for <a href='http://www.hooli.xyz/'>Hooli</a>"
+        "Designed and implemented endpoints in Express.js",
+        "Wrote unit tests with Jest achieving 90% coverage",
+        "Collaborated in Agile sprints and code reviews"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Stanford",
-      "area": "Computer Science",
-      "studyType": "B.S",
-      "location": "Palo Alto, CA",
-      "specialization": "Machine Learning",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "GPA 4.0",
-      "courses": [
-        "<strong>DB1101</strong> - Basic SQL",
-        "<strong>CS2011</strong> - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "organization": "Girls Who Code",
+      "position": "Mentor",
+      "website": "https://girlswhocode.com",
+      "startDate": "2023-09-01",
+      "endDate": "2024-05-01",
+      "summary": "Guided high-school students through Python and web development projects."
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Programming Languages",
+      "level": "Intermediate",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "JavaScript",
+        "Python",
+        "Java",
+        "C++"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Web & Mobile",
+      "level": "Intermediate",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "React",
+        "Node.js",
+        "React Native",
+        "Django"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "Beginner",
+      "keywords": [
+        "Pandas",
+        "scikit-learn",
+        "TensorFlow"
       ]
     }
   ],
@@ -136,21 +166,34 @@
     {
       "language": "English",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Conversational"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Hackathons",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "MLH Localhost",
+        "Hack the North"
+      ]
+    },
+    {
+      "name": "Open Source",
+      "keywords": [
+        "Contributor at Mozilla",
+        "React community"
       ]
     }
   ],
-  "references": [
+  "awards": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard. That is all."
+      "title": "Dean’s List",
+      "date": "2023-06-01",
+      "awarder": "State University",
+      "summary": "Recognized for academic excellence (GPA ≥ 3.75)."
     }
   ]
 }
