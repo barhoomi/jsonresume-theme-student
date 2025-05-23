@@ -1,5 +1,5 @@
 # jsonresume-theme-student 
-[![npm version](https://badge.fury.io/js/jsonresume-theme-engineering.svg)](https://www.npmjs.org/package/jsonresume-theme-student)
+[![npm version](https://badge.fury.io/js/jsonresume-theme-student.svg)](https://www.npmjs.org/package/jsonresume-theme-student)
 
 A JSON Resume theme tailored for **students**—with extra sections for Projects and Certificates, clear social links in the header, and an updated, compact layout.  
 Forked from [jsonresume-theme-engineering](https://github.com/skoenig/jsonresume-theme-engineering) which was inspired by [r/EngineeringResumes best practices](https://www.reddit.com/r/EngineeringResumes/wiki/index/).
