@@ -18,7 +18,8 @@
   "license": "MIT",
   "scripts": {
     "init": "resumed init",
-    "start": "resumed --theme jsonresume-theme-local"
+    "start": "resumed --theme jsonresume-theme-local",
+    "export": "resumed export --theme jsonresume-theme-local"
   },
   "dependencies": {
     "address-format": "0.0.3",
