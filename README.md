@@ -1,11 +1,11 @@
-# jsonresume-theme-engineering [![](https://badge.fury.io/js/jsonresume-theme-engineering.svg)](https://www.npmjs.org/package/jsonresume-theme-engineering)
+# jsonresume-theme-student 
+[![npm version](https://badge.fury.io/js/jsonresume-theme-engineering.svg)](https://www.npmjs.org/package/jsonresume-theme-student)
 
-This is the engineering theme for [JSON Resume](http://jsonresume.org/), based off of [jsonresume-theme-business-professional-compact](https://github.com/yechoorv/jsonresume-theme-business-professional-compact) and aims to implement the best practices for engineering resumes described in https://www.reddit.com/r/EngineeringResumes/wiki/index/. It is intended for [senior/staff level engineers](https://www.reddit.com/r/EngineeringResumes/wiki/index/#wiki_senior_engineers_and_above_.2810.2B_yoe.29).
+A JSON Resume theme tailored for **students**—with extra sections for Projects and Certificates, clear social links in the header, and an updated, compact layout.  
+Forked from [jsonresume-theme-engineering](https://github.com/skoenig/jsonresume-theme-engineering) which was inspired by [r/EngineeringResumes best practices](https://www.reddit.com/r/EngineeringResumes/wiki/index/).
 
 <p align="center">
-  <kbd>
-    <img src="https://github.com/skoenig/jsonresume-theme-engineering/blob/main/resume.png?raw=true" alt="Richard Hendriks Resume"/>
-  </kbd>
+  <img src="https://github.com/barhoomi/jsonresume-theme-student/blob/main/resume.png?raw=true" alt="Sample Student Resume" width="600"/>
 </p>
 
 ## Getting started
@@ -48,8 +48,11 @@ npm start
 You should now see this message:
 
 ```
-Preview: http://localhost:4000
-Press ctrl-c to stop
+
+> start
+> resumed --theme jsonresume-theme-local
+
+You can find your rendered resume at resume.html. Nice work! 🚀
 ```
 
 Congratulations, you've made it! You can now start to modify this theme (see Contribute section below).
