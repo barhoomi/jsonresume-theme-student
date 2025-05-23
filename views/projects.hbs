@@ -1,0 +1,26 @@
+{{#if resume.projects.length}}
+<section id="projects">
+    <h2>Projects</h2>
+    {{#each resume.projects}}
+        {{#> item title=name subtitle=role location=location startDate=startDate endDate=endDate}}
+            {{#if description}}
+                <div class="summary">
+                    <p>{{{description}}}</p>
+                </div>
+            {{/if}}
+            {{#if highlights.length}}
+                <ul class="highlights">
+                    {{#each highlights}}
+                        <li>{{{.}}}</li>
+                    {{/each}}
+                </ul>
+            {{/if}}
+            {{#if url}}
+                <div class="url">
+                    <a href="{{url}}" target="_blank">{{url}}</a>
+                </div>
+            {{/if}}
+        {{/item}}
+    {{/each}}
+</section>
+{{/if}}

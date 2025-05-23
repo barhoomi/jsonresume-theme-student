@@ -1,0 +1,19 @@
+{{#if resume.certificates.length}}
+<section id="certificates">
+    <h2>Certificates</h2>
+    {{#each resume.certificates}}
+        {{#> item title=name subtitle=issuer location=location startDate=issueDate endDate=expirationDate}}
+            {{#if description}}
+                <div class="summary">
+                    <p>{{{description}}}</p>
+                </div>
+            {{/if}}
+            {{#if url}}
+                <div class="url">
+                    <a href="{{url}}" target="_blank">{{url}}</a>
+                </div>
+            {{/if}}
+        {{/item}}
+    {{/each}}
+</section>
+{{/if}}
